@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160313 18:19:02.103" generator="Robot 3.0 (Python 2.7.11 on win32)">
+<suite source="C:\Users\ajen\demo\amazon.robot" id="s1" name="Amazon">
+<test id="s1-t1" name="User must sign in to checkout">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>ie</arg>
+</arguments>
+<msg timestamp="20160313 18:19:02.241" level="INFO">Opening browser 'ie' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20160313 18:19:04.445" starttime="20160313 18:19:02.241"></status>
+</kw>
+<kw name="Selenium2Library.Close Broswer">
+<msg timestamp="20160313 18:19:04.445" level="FAIL">No keyword with name 'Selenium2Library.Close Broswer' found. Did you mean:
+    Selenium2Library.Close Browser
+    Selenium2Library.Close All Browsers
+    Selenium2Library.Open Browser</msg>
+<status status="FAIL" endtime="20160313 18:19:04.445" starttime="20160313 18:19:04.445"></status>
+</kw>
+<doc>This is some basic info about the whole suite</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20160313 18:19:04.445" critical="yes" starttime="20160313 18:19:02.241">No keyword with name 'Selenium2Library.Close Broswer' found. Did you mean:
+    Selenium2Library.Close Browser
+    Selenium2Library.Close All Browsers
+    Selenium2Library.Open Browser</status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="FAIL" endtime="20160313 18:19:04.445" starttime="20160313 18:19:02.103"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Amazon" pass="0">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
